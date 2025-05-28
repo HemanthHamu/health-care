@@ -1,0 +1,39 @@
+.body-diagram {
+  background-color: #f5fafe;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 250px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.body-diagram img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.labels span {
+  position: absolute;
+  padding: 4px 8px;
+  border-radius: 7px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.labels .heart {
+  top: 22%;
+  left: 45%;
+  background-color: #3633b1;
+  color: #fff;
+}
+
+.labels .leg {
+  top: 68%;
+  left: 10%;
+  background-color: #00e7e5;
+  color: #00a3d7;
+}

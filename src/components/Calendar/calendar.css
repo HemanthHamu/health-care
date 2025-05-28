@@ -1,0 +1,94 @@
+.avatar-container {
+  display: flex;
+  justify-content: right;
+  gap: 3px;
+}
+.avatar-container .avatar-icon {
+  background-color: #05deec;
+}
+.avatar-container p {
+  background-color: #3535ae;
+  padding: 8px;
+  border-radius: 8px;
+  color: #fff;
+}
+.calendar-days,
+.calendar-dates,
+.calendar-time-slots {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.calendar-day,
+.calendar-date,
+.time-slot {
+  width: 14.28%;
+  text-align: center;
+}
+
+.calendar {
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calendar-header {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.pagination-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.calendar-day {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.calendar-date {
+  text-align: center;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.calendar-date.selected {
+  background-color: #3634af;
+  color: white;
+}
+.appointments-container {
+  display: flex;
+  gap: 8px;
+}
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-details,
+.active-appointment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.appointment-details {
+  background-color: #dde1fa;
+  color: #686694;
+}
+.active-appointment-details {
+  background-color: #3535ae;
+  color: #fff;
+}
